@@ -14,7 +14,7 @@ import Transition from './transitions/Transition'
 import Login from './Pages/Login'
 import Signup from './Pages/Signup'
 import axios from 'axios'
-import OtpVerification from './components/otpVerification'
+import OtpVerification from './components/OtpVerification'
 import Search from './components/Search'
 
 function App() {
