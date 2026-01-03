@@ -1,16 +1,13 @@
-# React + Vite
+# Villager — E‑commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live demo:** 🔗 https://villagerclothing.vercel.app/
+**Backend API:** 🔗 https://github.com/prabh-ux/ECommerceWebsiteBackend
 
-Currently, two official plugins are available:
+Villager is a performant, mobile‑first ecommerce frontend built with React, Vite and TailwindCSS. It connects to a Node/Express + MongoDB backend (JWT auth, email OTP verification) and delivers a seamless shopping experience with persistent carts, rich search, and a checkout-ready flow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key features
+- Responsive product listing & SEO-friendly product pages ✅  
+- Search with keyword scoring and fallback matching 🔎  
+- Add-to-cart, cart sync and optimistic UI updates 🛒  
+- Login / Signup with secure httpOnly cookie sessions and email OTP verification ✉️  
+- Reviews, address management, recent orders and checkout flow 💳
